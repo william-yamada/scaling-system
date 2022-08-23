@@ -1,0 +1,6 @@
+services:
+  oatpp:
+    image: oatpp
+    volumes:
+      - ${PWD}/src:/opt/app/src
+    command: ["tail","-F","/dev/null"]
